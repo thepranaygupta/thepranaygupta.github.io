@@ -56,11 +56,11 @@
   }
 }
 
-/*========== Variables Dark theme ==========*/
+/* Variables Dark theme  */
 
-/*========== Button Dark/Light ==========*/
+/* Button Dark/Light  */
 
-/*==================== BASE ====================*/
+/* BASE */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -100,7 +100,7 @@ img {
   height: auto;
 }
 
-/*==================== REUSABLE CSS CLASSES ====================*/
+/* REUSABLE CSS CLASSES  */
 .section {
   padding: 2rem 0 4rem;
 }
@@ -120,7 +120,7 @@ img {
   text-align: center;
 }
 
-/*==================== LAYOUT ====================*/
+/* LAYOUT  */
 .container {
   max-width: 768px;
   margin-left: var(--mb-1-5);
@@ -141,7 +141,7 @@ img {
   background-color: var(--body-color);
 }
 
-/*==================== NAV ====================*/
+/* NAVBAR */
 .nav {
   max-width: 968px;
   height: var(--header-height);
@@ -227,7 +227,7 @@ img {
 
 /* Change background header */
 
-/*==================== HOME ====================*/
+/* HOME */
 .home_container {
   gap: 1rem;
 }
@@ -278,37 +278,112 @@ img {
 }
 
 .home_description {
+  margin-bottom: var(--mb-2);
 }
 
-/*==================== BUTTONS ====================*/
+.home_scroll {
+  display: none;
+}
 
-/*==================== ABOUT ====================*/
+.home_scroll-button {
+  color: var(--first-color);
+  transition: 0.3s;
+}
 
-/*==================== SKILLS ====================*/
+.home_scroll-button:hover {
+  transform: translateY(0.25rem);
+}
 
-/*==================== QUALIFICATION ====================*/
+.home_scroll-mouse {
+  font-size: 2rem;
+}
 
-/*==================== SERVICES ====================*/
+.home_scroll-name {
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  margin-right: var(--mb-0-25);
+}
+
+.home_scroll-arrow {
+  font-size: 1.25rem;
+}
+
+/* BUTTONS */
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: var(--font-medium);
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.button_icon {
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: 0.3s;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* ABOUT */
+.about_img {
+  width: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.about_description {
+  text-align: center;
+  margin-bottom: var(--mb-1-5);
+}
+
+.about_info-title {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--first-color);
+}
+
+.about_button {
+  display: flex;
+  justify-content: center;
+}
+
+/* SKILLS  */
+
+/* QUALIFICATION  */
+
+/* SERVICES */
 
 /* Active Modal */
 
-/*==================== PORTFOLIO ====================*/
+/* PORTFOLIO  */
 
-/*==================== PROJECT IN MIND ====================*/
+/* PROJECT IN MIND  */
 
-/*==================== TESTIMONIAL ====================*/
+/* TESTIMONIAL  */
 
-/*==================== CONTACT ME ====================*/
+/* CONTACT ME  */
 
-/*==================== FOOTER ====================*/
+/* FOOTER  */
 
-/*========== SCROLL UP ==========*/
+/* SCROLL UP  */
 
 /* Show scroll */
 
-/*========== SCROLL BAR ==========*/
+/* SCROLL BAR  */
 
-/*==================== MEDIA QUERIES ====================*/
+/* MEDIA QUERIES  */
 /* For small devices */
 
 /* For medium devices */

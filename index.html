@@ -36,7 +36,7 @@
             </a>
           </li>
           <li class="nav_item">
-            <a href="#qualifications" class="nav_link">
+            <a href="#qualification" class="nav_link">
               <i class="uil uil-graduation-cap nav_icon"></i> Qualifications
             </a>
           </li>
@@ -380,17 +380,17 @@
     </section>
 
     <!-- Qualifications -->
-    <section class="qualification section">
+    <section class="qualification section" id="qualification">
       <h2 class="section_title">Qualification</h2>
       <span class="section_subtitle">My Educational Qualification & Work Experience</span>
 
       <div class="qualification_container container">
         <div class="qualification_tabs">
-          <div class="qualification_button button-flex qualification_active" data-target="#education">
+          <div class="qualification_button button-flex" id="educationheader">
             <i class="uil uil-graduation-cap qualification_icon"></i>Education
           </div>
 
-          <div class="qualification_button button-flex" data-target="#work">
+          <div class="qualification_button button-flex" id="workheader">
             <i class="uil uil-briefcase-alt qualification_icon"></i>Work
           </div>
         </div>
@@ -436,13 +436,6 @@
 
             <!-- School 1-10 -->
             <div class="qualification_data">
-              <div></div>
-
-              <div>
-                <span class="qualification_circle"></span>
-                <!-- <span class="qualification_line"></span> -->
-              </div>
-
               <div>
                 <h3 class="qualification_title">Secondary School</h3>
                 <span class="qualification_subtitle">Loyola School, Taldanga</span>
@@ -451,12 +444,15 @@
                   2008 - 2018
                 </div>
               </div>
+              <div>
+                <span class="qualification_circle"></span>
+              </div>
             </div>
 
           </div>
 
           <!-- Work Experience -->
-          <div class="qualification_content" data-content id="work">
+          <div class="qualification_content qualification-inactive" data-content id="work">
             <!-- SWoC -->
             <div class="qualification_data">
               <div>

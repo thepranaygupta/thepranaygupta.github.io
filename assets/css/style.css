@@ -451,6 +451,7 @@ img {
 .qualification_button {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
+  color: var(--first-color);
   cursor: pointer;
 }
 
@@ -501,12 +502,12 @@ img {
   transform: translate(6px, -7px);
 }
 
-.qualification [data-content] {
-  display: none;
+.qualification-content {
+  display: block;
 }
 
-.qualification_active[data-content] {
-  display: block;
+.qualification-inactive {
+  display: none;
 }
 
 /* SERVICES */

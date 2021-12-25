@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="./assets/css/style.css" />
   <title>Pranay Gupta</title>
   <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
@@ -494,7 +495,88 @@
     </section>
 
     <!-- Portfolio -->
-    <section class="portfolio section" id="portfolio"></section>
+    <section class="portfolio section" id="portfolio">
+      <h1 class="section_title">Projects</h1>
+      <span class="section_subtitle">Most recent work</span>
+
+      <div class="portfolio_container container swiper-container swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Project 1 -->
+          <div class="portfolio_content grid swiper-slide">
+            <img
+              src="https://user-images.githubusercontent.com/64855541/147368869-090d3db8-305c-4a07-bd01-85daa3c32ebc.png"
+              alt="" class="portfolio_img">
+
+            <div class="portfolio_data">
+              <h3 class="portfolio_title">
+                Windows 11 UI Clone
+              </h3>
+              <p class="portfolio_description">
+                A Windows 11 UI Clone made using only HTML, CSS & JS.
+              </p>
+              <a href="https://thepranaygupta.github.io/Windows-11-UI"
+                class="button button-flex button-small portfolio_button" target="_blank">
+                Check out
+                <i class="uil uil-arrow-right button_icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="portfolio_content grid swiper-slide">
+            <img
+              src="https://user-images.githubusercontent.com/64855541/147369544-ead2ec26-e79b-46b9-99f4-b0ddca930b8f.png"
+              alt="" class="portfolio_img">
+
+            <div class="portfolio_data">
+              <h3 class="portfolio_title">
+                White Board
+              </h3>
+              <p class="portfolio_description">
+                A basic whiteboard built using canvas tag with drawing, undo and clear canvas features.
+              </p>
+              <a href="https://thepranaygupta.github.io/White-Board/"
+                class="button button-flex button-small portfolio_button" target="_blank">
+                Check out
+                <i class="uil uil-arrow-right button_icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="portfolio_content grid swiper-slide">
+            <img
+              src="https://user-images.githubusercontent.com/64855541/147369213-7b6d234b-fc8f-46fd-a4ab-3026e07d10a8.png"
+              alt="" class="portfolio_img">
+
+            <div class="portfolio_data">
+              <h3 class="portfolio_title">
+                Drum Kit
+              </h3>
+              <p class="portfolio_description">
+                A simple Drum-Kit made using made using only HTML, CSS & JS that can be played using the keyboard.
+              </p>
+              <a href="https://thepranaygupta.github.io/Drum-Kit/"
+                class="button button-flex button-small portfolio_button" target="_blank">
+                Check out
+                <i class="uil uil-arrow-right button_icon"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Arrows -->
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
     <!-- Contact Me -->
     <section class="contact section" id="contact"></section>
@@ -509,7 +591,7 @@
   </a>
 
   <!-- Swiper JS -->
-  <script src=""></script>
+  <script src="./assets/js/swiper-bundle.min.js"></script>
 
   <script src="./assets/js/main.js"></script>
 </body>

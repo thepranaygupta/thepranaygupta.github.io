@@ -26,23 +26,15 @@ function linkAction() {
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 // SKILLS
-const skillsContent = document.getElementsByClassName("skills_content"),
-  skillsHeader = document.querySelectorAll(".skills_header");
+const skillContent = document.querySelectorAll('.skill');
+const skillHeader = document.querySelectorAll('.skills_header');
+const skillContentArr = Array.from(skillContent);
+const skillHeaderArr = Array.from(skillHeader);
 
-function toggleSkills() {
-  let itemClass = this.parentNode.className;
-
-  for (i = 0; i < skillsContent.length; i++) {
-    skillsContent[i].className = "skills_content skills_close";
-  }
-
-  if (itemClass === "skills_content skills_close") {
-    this.parentNode.className = "skills_content skills_open";
-  }
-}
-
-skillsHeader.forEach((e) => {
-  e.addEventListener("click", toggleSkills);
+skillHeaderArr.forEach((element, idx) => {
+    element.addEventListener('click', function () {
+        skillContentArr[idx].classList.toggle('skills_open');
+    });
 });
 
 // QUALIFICATION TABS

@@ -612,6 +612,7 @@ img {
 .contact_info {
   display: flex;
   margin-bottom: var(--mb-2);
+  align-items: flex-start;
 }
 
 .contact_icon {

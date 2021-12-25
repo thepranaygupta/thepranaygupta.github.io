@@ -26,15 +26,15 @@ function linkAction() {
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 // SKILLS
-const skillContent = document.querySelectorAll('.skill');
-const skillHeader = document.querySelectorAll('.skills_header');
+const skillContent = document.querySelectorAll(".skill");
+const skillHeader = document.querySelectorAll(".skills_header");
 const skillContentArr = Array.from(skillContent);
 const skillHeaderArr = Array.from(skillHeader);
 
 skillHeaderArr.forEach((element, idx) => {
-    element.addEventListener('click', function () {
-        skillContentArr[idx].classList.toggle('skills_open');
-    });
+  element.addEventListener("click", function () {
+    skillContentArr[idx].classList.toggle("skills_open");
+  });
 });
 
 // QUALIFICATION TABS
@@ -129,15 +129,13 @@ const iconTheme = "uil-sun";
 const selectedTheme = localStorage.getItem("selected-theme");
 const selectedIcon = localStorage.getItem("selected-icon");
 
-// We obtain the current theme that the interface has by validating the dark-theme class
+// obtain the current theme
 const getCurrentTheme = () =>
   document.body.classList.contains(darkTheme) ? "dark" : "light";
 const getCurrentIcon = () =>
   themeButton.classList.contains(iconTheme) ? "uil-moon" : "uil-sun";
 
-// We validate if the user previously chose a topic
 if (selectedTheme) {
-  // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
   document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
     darkTheme
   );

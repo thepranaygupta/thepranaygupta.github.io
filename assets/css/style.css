@@ -942,7 +942,7 @@ img {
 
   .footer_links {
     flex-direction: row;
-    column-gap: 2rem;
+    column-gap: 1rem;
   }
 
   .footer_socials {
@@ -958,43 +958,198 @@ img {
 @media screen and (min-width: 1024px) {
   .header,
   .main,
-  .footer_container{
+  .footer_container {
     padding: 0;
   }
 
-  .home_blob{
+  .home_blob {
     width: 320px;
   }
 
-  .home_social{
+  .home_social {
     transform: translateX(-6rem);
   }
 
-  .portfolio_content{
+  .portfolio_content {
     column-gap: 5rem;
   }
 
-  .swiper-portfolio-icon{
+  .swiper-portfolio-icon {
     font-size: 3.5rem;
   }
 
-  .swiper-button-prev{
+  .swiper-button-prev {
     left: -3.5rem;
   }
 
-  .swiper-button-next{
+  .swiper-button-next {
     right: -3.5rem;
   }
 
-  .swiper-container-horizontal > .swiper-pagination-bullets{
+  .swiper-container-horizontal > .swiper-pagination-bullets {
     bottom: -4.5rem;
   }
 
-  .contact_form{
+  .contact_form {
     width: 460px;
   }
 
-  .contact_inputs{
+  .contact_inputs {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Typewriter Effect*/
+@keyframes typing {
+  0.0000%,
+  27.3488% {
+    content: "";
+  }
+  1.1395%,
+  26.2093% {
+    content: "W";
+  }
+  2.2791%,
+  25.0698% {
+    content: "We";
+  }
+  3.4186%,
+  23.9302% {
+    content: "Web";
+  }
+
+  30.7674%,
+  51.2791% {
+    content: "";
+  }
+  31.9070%,
+  50.1395% {
+    content: "A";
+  }
+  33.0465%,
+  49.0000% {
+    content: "An";
+  }
+  34.1860%,
+  47.8605% {
+    content: "And";
+  }
+  35.3256%,
+  46.7209% {
+    content: "Andr";
+  }
+  36.4651%,
+  45.5814% {
+    content: "Andro";
+  }
+  37.6047%,
+  44.4419% {
+    content: "Androi";
+  }
+  38.7443%,
+  43.3023% {
+    content: "Android";
+  }
+
+  54.6977%,
+  85.2093% {
+    content: "";
+  }
+  55.8372%,
+  84.0698% {
+    content: "B";
+  }
+  56.9767%,
+  82.9302% {
+    content: "Bl";
+  }
+  58.1163%,
+  81.7907% {
+    content: "Blo";
+  }
+  59.2558%,
+  80.6512% {
+    content: "Bloc";
+  }
+  60.3953%,
+  79.5116% {
+    content: "Block";
+  }
+  61.5349%,
+  78.3721% {
+    content: "Blockc";
+  }
+  62.6745%,
+  77.2325% {
+    content: "Blockch";
+  }
+  63.8141%,
+  76.0929% {
+    content: "Blockcha";
+  }
+  64.9537%,
+  74.9533% {
+    content: "Blockchai";
+  }
+  66.0933%,
+  73.8137% {
+    content: "Blockchain";
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 13.5s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 2px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+
+.typewriter.thick::after {
+  border-right: 1ch solid var(--caret);
+}
+
+.typewriter.nocaret::after {
+  border-right: 0;
+}
+
+@media (prefers-reduced-motion) {
+  .typewriter::after {
+    animation: none;
+  }
+
+  @keyframes sequencePopup {
+    0%,
+    100% {
+      content: "Web";
+    }
+    25% {
+      content: "Android";
+    }
+    50% {
+      content: "Blockchain";
+    }
+  }
+
+  .typewriter::before {
+    content: "Web";
+    animation: sequencePopup 12s linear infinite;
   }
 }

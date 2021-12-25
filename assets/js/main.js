@@ -2,21 +2,21 @@ let navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navClose = document.getElementById("nav-close");
 
-//  MENU SHOW
+// MENU SHOW
 if (navToggle) {
   navToggle.addEventListener("click", () => {
     navMenu.classList.add("show-menu");
   });
 }
 
-//  MENU HIDDEN
+// MENU HIDDEN
 if (navClose) {
   navClose.addEventListener("click", () => {
     navMenu.classList.remove("show-menu");
   });
 }
 
-//  REMOVE MENU MOBILE
+// REMOVE MENU MOBILE
 const navLink = document.querySelectorAll(".nav_link");
 
 function linkAction() {
@@ -45,7 +45,7 @@ skillsHeader.forEach((e) => {
   e.addEventListener("click", toggleSkills);
 });
 
-//  QUALIFICATION TABS
+// QUALIFICATION TABS
 let education = document.getElementById("education");
 let work = document.getElementById("work");
 let educationheader = document.getElementById("educationheader");
@@ -71,7 +71,7 @@ workheader.addEventListener("click", () => {
   }
 });
 
-//  PORTFOLIO SWIPER
+// PORTFOLIO SWIPER
 let swiper = new Swiper(".mySwiper", {
   cssMode: true,
   loop: true,
@@ -88,7 +88,7 @@ let swiper = new Swiper(".mySwiper", {
   keyboard: true,
 });
 
-//  SCROLL SECTIONS ACTIVE LINK
+// SCROLL SECTIONS ACTIVE LINK
 const sections = document.querySelectorAll("section[id]");
 
 function scrollActive() {
@@ -120,6 +120,6 @@ function scrollHeader() {
 }
 window.addEventListener("scroll", scrollHeader);
 
-//  SHOW SCROLL UP
+// SHOW SCROLL UP
 
-//  DARK LIGHT THEME
+// DARK LIGHT THEME

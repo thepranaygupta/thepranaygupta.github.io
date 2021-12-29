@@ -127,6 +127,11 @@ img {
   height: auto;
 }
 
+button {
+  border-style: none;
+  cursor: pointer;
+}
+
 /* REUSABLE CSS CLASSES  */
 .section {
   padding: 2rem 0 4rem;
@@ -651,6 +656,16 @@ img {
 .contact_label {
   font-size: var(--smaller-font-size);
   color: var(--title-color);
+}
+
+.alert_style {
+  text-align: center;
+  padding: 10px;
+  font-size: var(--small-font-size);
+  background-color: var(--first-color);
+  color: #fff;
+  border-radius: 0.5rem;
+  display: none;
 }
 
 /* FOOTER  */

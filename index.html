@@ -624,31 +624,33 @@
           </a>
         </div>
 
-        <form action="" class="contact_form grid">
+        <form action="https://formspree.io/f/xyyozeaq" class="contact_form grid" id="contact-form" method="POST">
+          <div id="alert" class="alert_style"></div>
           <div class="contact_inputs grid">
             <div class="contact_content">
-              <label for="" class="contact_label">Name</label>
-              <input type="text" class="contact_input">
+              <label class="contact_label">Name</label>
+              <input type="text" name="name" class="contact_input" id="name" required>
             </div>
             <div class="contact_content">
-              <label for="" class="contact_label">Email</label>
-              <input type="email" class="contact_input">
+              <label for="email" class="contact_label">Email</label>
+              <input type="email" name="email" class="contact_input" id="email" required>
             </div>
           </div>
           <div class="contact_content">
-            <label for="" class="contact_label">Subject</label>
-            <input type="text" class="contact_input">
+            <label for="subject class=" contact_label">Subject</label>
+            <input type="text" name="subject" class="contact_input" id="subject" required>
           </div>
           <div class="contact_content">
-            <label for="" class="contact_label">Message</label>
-            <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+            <label for="message" class="contact_label">Message</label>
+            <textarea name="message" id="" cols="0" rows="7" class="contact_input message" id="message"
+              required></textarea>
           </div>
 
           <div>
-            <a href="#" class="button button-flex">
+            <button type="submit" class="button button-flex">
               Send Message
               <i class="uil uil-message button_icon"></i>
-            </a>
+            </button>
           </div>
         </form>
 
@@ -701,6 +703,8 @@
 
   <!-- Swiper JS -->
   <script src="./assets/js/swiper-bundle.min.js"></script>
+
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script> -->
 
   <script src="./assets/js/main.js"></script>
 </body>

@@ -13,7 +13,7 @@ async function handleSubmit(event) {
     },
   })
     .then((response) => {
-      status.innerHTML = "Thanks for your submission!";
+      status.innerHTML = "Your message has been sent.";
       document.querySelector(".alert_style").style.display = "block";
 
       // hide alert after 3 seconds
@@ -23,7 +23,7 @@ async function handleSubmit(event) {
       form.reset();
     })
     .catch((error) => {
-      status.innerHTML = "Oops! There was a problem submitting your form";
+      status.innerHTML = "Oops! There was a problem delivering your message, please contact via other means.";
       document.querySelector(".alert_style").style.display = "block";
 
       // hide alert after 3 seconds
@@ -126,7 +126,7 @@ function scrollActive() {
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - 50;
-    sectionId = current.getAttribute("id");
+    let sectionId = current.getAttribute("id");
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document

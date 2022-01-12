@@ -23,7 +23,8 @@ async function handleSubmit(event) {
       form.reset();
     })
     .catch((error) => {
-      status.innerHTML = "Oops! There was a problem delivering your message, please contact via other means.";
+      status.innerHTML =
+        "Oops! There was a problem delivering your message, please contact via other means.";
       document.querySelector(".alert_style").style.display = "block";
 
       // hide alert after 3 seconds
@@ -189,4 +190,15 @@ themeButton.addEventListener("click", () => {
   // We save the theme and the current icon that the user chose
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
+});
+
+// Typing Animation using Typed JS
+var typed = new Typed(".type", {
+  strings: ["a Web", "an Android", "a Blockchain"],
+  smartBackspace: true,
+  startDelay: 1000,
+  typeSpeed: 130,
+  backDelay: 1000,
+  backSpeed: 60,
+  loop: true,
 });

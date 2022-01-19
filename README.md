@@ -3,7 +3,7 @@
 <h1>Personal Portfolio Website - v0.1.0</h1>
 
 <h2>
-  <a href="https://thepranaygupta.github.io/">thepranaygupta.github.io</a>
+  <a href="https://thesaurabhmhaske.github.io/">thesaurabhmhaske.github.io</a>
 </h2>
 
 <div align="center">
@@ -35,7 +35,7 @@
 ✔️ Contact Me\
 ✔️ Footer
 
-To view a live example, **[click here](https://thepranaygupta.github.io/)**
+To view a live example, **[click here](https://thesaurabhmhaske.github.io/)**
 
 ## Tools Used 🛠️
 

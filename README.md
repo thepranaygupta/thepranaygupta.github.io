@@ -7,7 +7,7 @@
 </h2>
 
 <div align="center">
-  <img alt="Mockup" src="./assets/img/web-priview.png/>
+  <img alt="Mockup" src="./assets/img/web-priview.png/">
 </div>
 
 <br/>

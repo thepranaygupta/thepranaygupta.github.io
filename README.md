@@ -12,12 +12,7 @@
 
 <br/>
 
-<a href="https://github.com/thepranaygupta/thepranaygupta.github.io"><img src="https://sloc.xyz/github/thepranaygupta/thepranaygupta.github.io" alt="Total lines"></a>
-<a href="https://github.com/thepranaygupta/thepranaygupta.github.io"><img src="https://visitor-badge.laobi.icu/badge?page_id=thepranaygupta/thepranaygupta.github.io" alt="Number of Visitors"></a>
-<a href="https://github.com/thepranaygupta/thepranaygupta.github.io/stargazers"><img src="https://img.shields.io/github/stars/thepranaygupta/thepranaygupta.github.io" alt="github stars"></a>
-<a href="https://github.com/thepranaygupta/thepranaygupta.github.io/network/members"><img src="https://img.shields.io/github/forks/thepranaygupta/thepranaygupta.github.io" alt="github forks"></a>
-<a href="https://thepranaygupta.github.io/"><img src="https://img.shields.io/badge/website-up-yellow" alt="website up"></a>
-<a href="https://www.linkedin.com/in/thepranaygupta/"><img src="https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg" alt="linkedin"></a>
+<a href="https://www.linkedin.com/in/saurabh-mhaske-49b011202/"><img src="https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg" alt="linkedin"></a>
 
 </div>
 
@@ -51,19 +46,3 @@ To view a live example, **[click here](https://thepranaygupta.github.io/)**
 
 ## Contributing 💡
 
-#### Step 1
-
-- **Option 1**
-
-  - 🍴 Fork this repo!
-
-- **Option 2**
-  - 👯 Clone this repo to your local machine.
-
-#### Step 2
-
-- **Build your code** 🔨🔨🔨
-
-#### Step 3
-
-- 🔃 Create a new pull request.

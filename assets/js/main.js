@@ -80,15 +80,16 @@ let education = document.getElementById("education");
 let work = document.getElementById("work");
 let educationheader = document.getElementById("educationheader");
 let workheader = document.getElementById("workheader");
-workheader.style.color = "var(--first-colour)";
+workheader.style.color = "var(--first-color)";
+educationheader.style.color = "var(--text-color)";
 
 educationheader.addEventListener("click", () => {
   let condition1 = work.classList.contains("qualification-inactive");
   if (!condition1) {
     education.classList.remove("qualification-inactive");
     work.classList.add("qualification-inactive");
-    workheader.style.color = "var(--text-colour)";
-    educationheader.style.color = "var(--first-colour)";
+    workheader.style.color = "var(--text-color)";
+    educationheader.style.color = "var(--first-color)";
   }
 });
 workheader.addEventListener("click", () => {
@@ -96,8 +97,8 @@ workheader.addEventListener("click", () => {
   if (!condition2) {
     work.classList.remove("qualification-inactive");
     education.classList.add("qualification-inactive");
-    educationheader.style.color = "var(--text-colour)";
-    workheader.style.color = "var(--first-colour)";
+    educationheader.style.color = "var(--text-color)";
+    workheader.style.color = "var(--first-color)";
   }
 });
 

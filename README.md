@@ -7,7 +7,9 @@
 </h2>
 
 <div align="center">
-  <img alt="Mockup" src="https://user-images.githubusercontent.com/64855541/148080556-ec9d5062-1092-4bd4-ba12-82a153e32985.png" />
+  <a href="https://thepranaygupta.github.io/">
+    <img alt="Mockup" src="https://user-images.githubusercontent.com/64855541/148080556-ec9d5062-1092-4bd4-ba12-82a153e32985.png" />
+  </a>
 </div>
 
 <br/>
@@ -53,16 +55,12 @@ To view a live example, **[click here](https://thepranaygupta.github.io/)**
 
 #### Step 1
 
-- **Option 1**
-
-  - 🍴 Fork this repo!
-
-- **Option 2**
-  - 👯 Clone this repo to your local machine.
+- 🍴 Fork this repo!
+- 👯 Clone this repo to your local machine.
 
 #### Step 2
 
-- **Build your code** 🔨🔨🔨
+- Build your code 🔨🔨🔨
 
 #### Step 3
 

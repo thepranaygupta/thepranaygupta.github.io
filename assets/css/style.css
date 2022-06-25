@@ -94,6 +94,11 @@ body.dark-theme {
   margin: 0;
 }
 
+::selection{
+  background-color: #8d8d8d;
+  color: #fff;
+}
+
 html {
   scroll-behavior: smooth;
 }

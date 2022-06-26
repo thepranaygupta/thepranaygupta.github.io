@@ -35,6 +35,22 @@ async function handleSubmit(event) {
 }
 form.addEventListener("submit", handleSubmit);
 
+// FORM BORDERS 
+$("#contact-form input,#contact-form textarea").on("input focusin",(e)=>{
+  $(e.target).parent().addClass("focusIn");
+  if ($(e.target).val().trim().length > 0) {
+    $(e.target).parent().addClass("valid");
+    $(e.target).parent().removeClass("invalid");
+  } else {
+    $(e.target).parent().addClass("invalid");
+    $(e.target).parent().removeClass("valid");
+  }
+});
+
+$("#contact-form input,#contact-form textarea").on("focusout",(e)=>{
+    $(e.target).parent().removeClass("focusIn");
+});
+
 // NAVIGATION PANEL
 let navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),

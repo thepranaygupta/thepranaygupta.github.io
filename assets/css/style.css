@@ -94,6 +94,11 @@ body.dark-theme {
   margin: 0;
 }
 
+::selection{
+  background-color: #8d8d8d;
+  color: #fff;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -640,6 +645,15 @@ button {
   background-color: var(--input-color);
   border-radius: 0.5rem;
   padding: 0.75rem 1rem 0.25rem;
+  border: var(--first-color) 2px solid;
+}
+
+.contact_content.focusIn.valid{
+  border-color: #7fff00;
+}
+
+.contact_content.focusIn.invalid{
+  border-color: #ff4500;
 }
 
 .contact_input {

@@ -94,7 +94,7 @@ body.dark-theme {
   margin: 0;
 }
 
-::selection{
+::selection {
   background-color: #8d8d8d;
   color: #fff;
 }
@@ -648,11 +648,11 @@ button {
   border: var(--first-color) 2px solid;
 }
 
-.contact_content.focusIn.valid{
+.contact_content.focusIn.valid {
   border-color: #7fff00;
 }
 
-.contact_content.focusIn.invalid{
+.contact_content.focusIn.invalid {
   border-color: #ff4500;
 }
 

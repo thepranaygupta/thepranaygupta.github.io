@@ -360,10 +360,17 @@ button {
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
+  font-family: inherit;
 }
 
 .button:hover {
   background-color: var(--first-color-alt);
+}
+
+.button-flex {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 
 .button_icon {

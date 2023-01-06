@@ -525,6 +525,10 @@ button {
   margin-bottom: var(--mb-1);
 }
 
+.qualification_subtitle a {
+  color: inherit;
+}
+
 .qualification_calendar {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);

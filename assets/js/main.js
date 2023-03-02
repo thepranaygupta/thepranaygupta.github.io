@@ -96,8 +96,8 @@ let education = document.getElementById("education");
 let work = document.getElementById("work");
 let educationheader = document.getElementById("educationheader");
 let workheader = document.getElementById("workheader");
-workheader.style.color = "var(--first-color)";
-educationheader.style.color = "var(--text-color)";
+workheader.style.color = "var(--text-color)";
+educationheader.style.color = "var(--first-color)";
 
 educationheader.addEventListener("click", () => {
   let condition1 = work.classList.contains("qualification-inactive");

@@ -1,3 +1,2 @@
 User-agent: *
-Disallow:
-Sitemap: https://pranaygupta.in/sitemap.xml
+Disallow: /
